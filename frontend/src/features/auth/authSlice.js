@@ -11,7 +11,7 @@ const initialState = {
     message: ""
 }
 
-export const authSlice = CreateSlice({
+export const authSlice = createSlice({
     name: 'auth',
     initialState,
     reducers: {
